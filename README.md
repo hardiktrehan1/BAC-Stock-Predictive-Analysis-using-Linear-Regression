@@ -1,12 +1,12 @@
-**📈 BAC Stock Predictive Analysis using Linear Regression**
+## **📈 BAC Stock Predictive Analysis using Linear Regression** ##
 
 - This project presents a comprehensive analysis and predictive modeling approach to forecasting the stock price of Bank of America (BAC) using Linear Regression. The repository covers the full data science workflow — from data acquisition to feature engineering, model building, evaluation, and diagnostic testing of regression assumptions.
 
-** Project Overview**
+ **Project Overview**
 
 - The primary objective of this project is to build an interpretable regression model to predict BAC's stock price based on historical market data. This is done using lag features, moving averages, and relevant index indicators. The model’s performance is evaluated using error metrics like Root Mean Squared Error (RMSE) and Mean Squared Error (MSE) to assess its predictive accuracy.
 
-** Key Features**
+ **Key Features**
 
 - Data pulled using yfinance for BAC and major market indices.
 - Feature engineering includes:
@@ -40,7 +40,7 @@ These values indicate a moderate prediction error, with the model deviating by a
 5) Autocorrelation of Residuals
 - Evaluated with the Durbin-Watson statistic to detect serial correlation in residuals.
 
-** Tools & Libraries Used**
+**Tools & Libraries Used**
 - numpy
 - pandas
 - yfinance – for pulling stock and index data
@@ -48,7 +48,7 @@ These values indicate a moderate prediction error, with the model deviating by a
 - statsmodels.api – for building and interpreting the regression model
 - statsmodels.stats.outliers_influence – for VIF and multicollinearity analysis
 
-** Results & Next Steps**
+**Results & Next Steps**
 
 - The model currently exhibits an RMSE of 0.7358, indicating a moderate average prediction error. While linear regression offers simplicity and interpretability, future enhancements could include:
 
@@ -56,6 +56,6 @@ These values indicate a moderate prediction error, with the model deviating by a
 - Applying regularized models like Ridge or Lasso
 - Exploring nonlinear models such as Random Forest or XGBoost
 
-** Disclaimer**
+**Disclaimer**
 
 This project is for educational and illustrative purposes only and does not constitute financial advice.
